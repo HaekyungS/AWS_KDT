@@ -9,9 +9,9 @@ const http2 = fs.readFileSync("./index2.html");
 let datas = "";
 
 const connecttion = mysql.createConnection({
-  host: "database-zoe.cy88i0qmxp5y.us-east-1.rds.amazonaws.com",
+  host: "DB주소",
   user: "admin_zoe",
-  password: "Zoezoe`12",
+  password: "",
   port: 3306,
   database: "test",
 });
